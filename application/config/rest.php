@@ -44,14 +44,14 @@ $config['rest_default_format'] = 'json';
 |
 */
 $config['rest_supported_formats'] = [
-    'json',
-    'array',
-    'csv',
-    'html',
-    'jsonp',
-    'php',
-    'serialized',
-    'xml',
+  'json',
+  'array',
+  'csv',
+  'html',
+  'jsonp',
+  'php',
+  'serialized',
+  'xml',
 ];
 
 /*
@@ -323,7 +323,7 @@ $config['rest_keys_table'] = 'keys';
 |   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 |
 */
-$config['rest_enable_keys'] = false;
+$config['rest_enable_keys'] = true;
 
 /*
 |--------------------------------------------------------------------------
